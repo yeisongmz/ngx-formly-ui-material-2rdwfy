@@ -20,7 +20,7 @@ export class AppComponent {
       }
     },
     {
-      key: 'input',
+      key: 'input2',
       type: 'input',
       hideExpression: "!model.input",
       templateOptions: {
