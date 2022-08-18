@@ -14,18 +14,18 @@ export class AppComponent {
       key: 'input',
       type: 'input',
       templateOptions: {
-        label: 'Nombre',
-        placeholder: 'Input placeholder',
+        label: 'Nombres',
+        placeholder: 'Nombres',
         required: true,
       }
     },
     {
-      key: 'textarea',
-      type: 'textarea',
+      key: 'input',
+      type: 'input',
       hideExpression: "!model.input",
       templateOptions: {
-        label: 'Textarea',
-        placeholder: 'Textarea placeholder',
+        label: 'Apellidos',
+        placeholder: 'Apellidos',
         required: true,
       }
     },
